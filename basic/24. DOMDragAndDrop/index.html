@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Drag And Drop</title>
+        <style>
+                .select {
+                  width: 500px;
+                  height: 250px;
+                  padding: 10px;
+                  background: blue;
+                  margin-bottom: 20px;
+                }
+                </style>
+</head>
+<body>
+<!-- draggable -> การทำให้ element สามารถลาก (draggable) ใน HTML, CSS, และ JavaScript สามารถทำได้ -->
+<h1>select Image</h1>
+<div class="select">
+        <img id="equip-drag" src="image1.jpg"  width="500px" height="250px" >
+</div>
+<img class="drag" id="image1" src="image1.jpg"  width="500px" height="250px" draggable>
+<img class="drag" id="image2" src="image2.jpg"  width="500px" height="250px" draggable>
+<img class="drag" id="image3" src="image3.jpg"  width="500px" height="250px" draggable>
+<br>
+        <script src="script.js"></script>
+</body>
+</html>

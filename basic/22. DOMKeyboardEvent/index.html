@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Keyboard Event</title>
+</head>
+<style>
+        html,
+        body {
+                margin: 0;
+                padding: 0;
+        }
+
+        .image-box {
+                background-color: rgb(17, 17, 17);
+                padding: 32px;
+        }
+
+        .image-flex {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 400px;
+        }
+
+        .image {
+                max-width: 100%;
+                max-height: 100%;
+        }
+
+        .button-flex {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+        }
+
+        .button {
+                font-size: 18px;
+                padding: 6px;
+        }
+
+        .title-center {
+                text-align: center;
+        }
+</style>
+
+<body>
+        <div class="image-box">
+                <div class="image-flex">
+                        <img class="image"
+                                src="image1.jpg">
+                </div>
+                <nav class="button-flex">
+                        <button class="button prev-button">ก่อนหน้า</button>
+                        <button class="button next-button">ถัดไป</button>
+                </nav>
+        </div>
+        <h3 class="title-center">กดคีย์บอร์ดลูกศรซ้ายรูปก่อนหน้า กดคีย์บอร์ดลูกศรขวารูปถัดไป </h3>
+        <script src="script.js"></script>
+</body>
+
+</html>

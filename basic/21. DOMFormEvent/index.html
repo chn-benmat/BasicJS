@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Form Event</title>
+</head>
+<style>
+        form {
+                font-size: 24px;
+        }
+
+       input {
+                display: block;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 18px;
+                width: 250px;
+        }
+
+        .btn {
+                padding: 10px;
+        }
+
+        .error-message {
+                display: none;
+        }
+</style>
+
+<body>
+        <form>
+                <label>อันที่1: </label>
+                <input type="text" class="answer1">
+                <label>อันที่2: </label>
+                <input type="text" class="answer2">
+                <label>อันที่3: </label>
+                <input type="text" class="answer3">
+                <button class="btn">บันทึก</button>
+                <div class="error-message">เกิดข้อผิดพลาด</div>
+        </form>
+        <script src="script.js"></script>
+</body>
+
+</html>

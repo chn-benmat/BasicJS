@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM Class</title>
+        <style>
+                div {
+                        border: 2px solid black;
+                        background: #fff;
+                        padding: 10px;
+                        margin-bottom: 10px;
+                        font-size: 18px;
+                }
+
+                .orange-box {
+                        background: orange;
+                }
+
+                .green-box {
+                        background: green;
+                }
+
+                .message-5 {
+                        display: none;
+                        border: 2px solid black;
+                        padding: 10px;
+                        font-size: 18px;
+                }
+        </style>
+</head>
+
+<body>
+        <div class="message-1">ข้อความที่ 1 เพิ่ม class</div>
+        <div class="message-2 orange-box">ข้อความที่ 2 ลบ class</div>
+        <div class="message-3 orange-box">ข้อความที่ 3 เปลี่ยน class</div>
+        <button class="toggle-btn">Toggle theme</button>
+        <div class="message-4 green-box">ปิด</div>
+        <button class="change-btn">Change theme</button>
+        <p class="message-5"></p>
+        <script src="script.js"></script>
+</body>
+
+</html>

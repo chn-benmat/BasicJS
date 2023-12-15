@@ -1,0 +1,60 @@
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>DOM Scoll Event</title>
+                <style>
+                        .scroll-position{
+                                display: flex;
+                                justify-content: end;
+                        }
+                        .scroll-info {
+                                position: fixed;
+                                top: 0;
+                                z-index: 2;
+                                padding: 10px;
+                                background-color: #dfd875;
+                        }
+                        .top-header{
+                                position: fixed;
+                                height: 60px;
+                                top: 0;
+                                left: 0;
+                                right: 0;
+                                z-index: 1;
+                                padding: 10px;
+                                background-color: #818181;
+                                text-align: start;
+                                transition: top .3s ease-out;
+                        }
+                        .top-header.hide{
+                                top: -100px;
+                        }
+                        .content {
+                                height: 100vh;
+                                padding-top: 100px;
+                        }
+                        .image {
+                                max-width: 100%;
+                                max-height: 100%;
+                        }
+                        
+                </style>
+        </head>
+
+        <body>
+                <h3 class="top-header">เลื่อนขึ้นเลื่อนลง</h3>
+                <div class="scroll-position">
+                        <h3 class="scroll-info">X และ Y</h3>
+                </div>
+                <div class="content">
+                        <img class="image" src="image1.jpg">
+                        <img class="image" src="image2.jpg">
+                        <img class="image" src="image3.jpg">
+                </div>
+                <script src="script.js"></script>
+        </body>
+
+        </html>
