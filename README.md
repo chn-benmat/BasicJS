@@ -65,7 +65,7 @@
                 **- ปิดเว็บที่เปิดได้เลย**
 - **หากคุณใช้เว็บเบราว์เซอร์, คุณสามารถเปิด Developer Tools (F12 หรือคลิกขวาแล้วเลือก "Inspect"(ตรวจสอบ) แล้วไปที่แท็บ "Console"(คอนโซน))**
 
-## เริ่มเรียนได้ตั้งแต่เลข 1 ถึง 26
+## เริ่มเรียนได้ตั้งแต่ Basic 1 ถึง 32
 
 ## แหล่งอ้างอิง
 - [Zinglecode on YouTube](https://www.youtube.com/watch?v=UiOU7tkzOMg&list=PL_xSQKvnccplgKmdtqizMGRh11witheTM)
