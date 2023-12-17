@@ -14,7 +14,7 @@
 - **Auto close Tag (บังคับ)**
 - **auto Rename Tag (บังคับ)**
 - **Beautify (บังคับ)**
-- **CodeRunner (ตามใจ)**
+- **CodeRunner (บังคับ)**
 - **Color Highlight (ตามใจ)**
 - **Highlight Matching Tag (บังคับ)**
 - **JavaScript (ES6) code snippets (บังคับ)**
@@ -22,7 +22,6 @@
 - **Material Icon Theme(ตามใจ)**
 - **One Dark Pro (ตามใจ)**
 - **Path Intellisense (บังคับ)**
-- **Live Server (บังคับ)**
 - **Txt Syntax (บังคับ) เพราะจะทำให้อ่านไฟล์ "อ่านก่อนเริ่มเรียน.txt" ง่าย**
 
 ## JavaScript กับ Java ภาษาเดียวกันไหม?
@@ -55,20 +54,23 @@
 - **เปลี่ยนปุ่มเปลี่ยนภาษาไปเป็นปุ่มอื่น ดูวิธีเปลี่ยนได้ตามยูทูป**
 - **copy จากที่อื่นมา paste ใส่**
 
-## วิธีดูผลลัพธ์จากการRun JavaScript
+## วิธีดูผลลัพธ์จากการRun JavaScript ผ่านเว็บเบราว์เซอร์
 
 - **ต้องมี Live Server ก่อน**
          **วิธีเปิด Live Server**
-                **- เปิดไฟล์ HTML ที่คุณต้องการใช้ Live Server เปิด**
                 **- คลิกขวาที่ไฟล์ HTML และเลือก "Open with Live Server" จากเมนูที่ปรากฏ**
         **วิธีปิด LiveSever**
                 **- ปิดเว็บที่เปิดได้เลย**
 - **หากคุณใช้เว็บเบราว์เซอร์, คุณสามารถเปิด Developer Tools (F12 หรือคลิกขวาแล้วเลือก "Inspect"(ตรวจสอบ) แล้วไปที่แท็บ "Console"(คอนโซน))**
 
+## วิธีดูผลลัพธ์จากการ CodeRunne
+- **คลิกขวาที่ไฟล์ JS และเลือก "Run Code" จากเมนูที่ปรากฏ หรือ กด Ctrl + Alt + N**
+
 ## เริ่มเรียนได้ตั้งแต่ Basic 1 ถึง 32
 
 ## แหล่งอ้างอิง
 - [Zinglecode on YouTube](https://www.youtube.com/watch?v=UiOU7tkzOMg&list=PL_xSQKvnccplgKmdtqizMGRh11witheTM)
+- [KongRuksiam Official on YouTube](https://www.youtube.com/watch?v=VKJAmjpEzds&t=3793s)
 - [W3Schools](https://www.w3schools.com/js/)
 - [BornToDev](https://www.borntodev.com/tag/javascript/)
 - [Google Bard](https://bard.google.com/chat)

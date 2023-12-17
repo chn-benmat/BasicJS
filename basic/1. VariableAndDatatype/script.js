@@ -49,7 +49,7 @@ Descriptive Names ->
 Avoid Abbreviations (หลีกเลี่ยงการใช้ตัวย่อ) -> 
         อย่าใช้ตัวย่อที่ไม่ชัดเจน ตัวอย่าง: numberOfItems ดีกว่า numItems
 */
-// Console.log() สามารถใช้ได้ทุกรูปแบบไม่มีผิดแล้วแต่ชอบ ส่วนตัวชอบใช้ ` ` 
+// Console.log() สามารถใช้ได้ทุกรูปแบบไม่มีผิดแล้วแต่ชอบ ส่วนตัวชอบใช้ `${}` (template literals)
 // ใช้ + เพื่อการเชื่อมต่อ (concatenation) ของ Strings
 let firstName = "John";
 let lastName = "Doe";
